@@ -4,11 +4,11 @@
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
-##
+##this
 import socket
 
 mysock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-##
+##this
 
 
 # Ignore SSL certificate errors: i dont know in detail but use this piece of code
@@ -27,7 +27,7 @@ lim=0;
 #list to store URL's
 ulist = list()
 
-##
+##this
 print(url)
 mysock.connect(('www.dr-chuck.com',80))
 cmd='GET http://www.dr-chuck.com/page2.htm HTTP/1.0 \n\n'.encode()
@@ -41,8 +41,8 @@ while True:
     fh.write(data.decode())
 mysock.close()
 
-##
- #either use code  between "##" and "##" or uncomment following incomplete code
+##this
+ #either use code  between "##this" and "##this" or uncomment following incomplete code
 
 ###def crawling(url,lim) :
     ###while True:

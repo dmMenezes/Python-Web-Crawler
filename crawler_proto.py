@@ -19,8 +19,6 @@ ctx.verify_mode = ssl.CERT_NONE
 #some uarl u r starting with. comment this if you are prompting url using input
 url = 'http://py4e-data.dr-chuck.net/'
 
-#C:\Users\DmM67\AppData\Roaming\Python\Python38\Scripts
-#C:\Users\DmM67\AppData\Roaming\Python\Python38\Scripts' which is not on PATH.
 fh = open("py_write.txt",'w')
 
 #counter variable that is used to limit loop
